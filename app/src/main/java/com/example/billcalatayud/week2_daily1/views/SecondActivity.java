@@ -35,7 +35,6 @@ public class SecondActivity extends AppCompatActivity {
             }
 
             public void onStartTrackingTouch(SeekBar seekBar) {
-                // TODO Auto-generated method stub
             }
 
             public void onStopTrackingTouch(SeekBar seekBar) {
@@ -96,9 +95,9 @@ public class SecondActivity extends AppCompatActivity {
         tView3 = findViewById(R.id.tView3);
         result = findViewById(R.id.result);
 
-        loanSeekBar = (SeekBar) findViewById(R.id.loanSeekBar);
-        interestSeekBar = (SeekBar) findViewById(R.id.interestSeekBar);
-        tenureSeekBar = (SeekBar) findViewById(R.id.tenureSeekBar);
+        loanSeekBar = findViewById(R.id.loanSeekBar);
+        interestSeekBar = findViewById(R.id.interestSeekBar);
+        tenureSeekBar = findViewById(R.id.tenureSeekBar);
     }
 
     private void calculator(String s1, String s2, String s3) {

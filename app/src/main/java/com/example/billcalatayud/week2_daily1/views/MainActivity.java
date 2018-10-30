@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "";
     private static final int REQUEST_IMAGE_CAPTURE = 1;
     private ImageView mImageView;
-    private EditText etMain,eTName,eTAge, eTGender;
-    ArrayList <Person> persons= new ArrayList<>();
+    private EditText etMain, eTName, eTAge, eTGender;
+    ArrayList<Person> persons = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void ViewPersons(View view) {
         Intent intent = new Intent(getApplicationContext(), ThirdActivity.class);
-        intent.putExtra("persons",persons);
+        intent.putExtra("persons", persons);
         startActivity(intent);
     }
 }
