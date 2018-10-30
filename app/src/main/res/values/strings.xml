@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Week 2 - Daily 1</string>
+    <string name="chooser_title">Share via</string>
+    <string name="permission_not_granted">PSNO</string>
+</resources>
